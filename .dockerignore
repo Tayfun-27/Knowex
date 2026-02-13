@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env.local
+
+# Test files
+test_*.py
+*_test.py
+
+# Temp files
+*.zip
+*.log
+*.tmp
+
+# Git
+.git/
+.gitignore
+
+# Node.js (bu dosyalar yok sayılmalı)
+node_modules/
+package.json
+package-lock.json

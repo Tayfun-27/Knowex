@@ -1,0 +1,46 @@
+# .gcloudignore - Google Cloud Run deploy sırasında ignore edilecek dosyalar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js (Backend'de Node.js kullanılmıyor, bu dosyalar ignore edilmeli)
+node_modules/
+package.json
+package-lock.json
+*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Test files
+test_*.py
+*_test.py
+
+# Temp files
+*.zip
+*.log
+*.tmp
+
+# Service Account (güvenlik için)
+service-account.json
+
+# Diğer
+.git/
+.gitignore
+README.md

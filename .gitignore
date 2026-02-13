@@ -1,0 +1,15 @@
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Çevre değişkenleri ve Gizli Dosyalar
+.env
+service-account.json
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
